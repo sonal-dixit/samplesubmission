@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-tabs .custom-tab {
+    border-radius: 200px; /* Adjust the value as needed for roundness */
+    height: 30px;
+    width:30px;
+    margin-right: 10px; /* Add margin to create a gap between tabs */
+  }
+  
+  .custom-tabs .custom-tab:last-child {
+    margin-right: 0; /* Remove the margin from the last tab */
+  }
+  
+  /* Additional styling to enhance the appearance of tabs */
+  .custom-tabs .custom-tab .nextui-tab {
+    border-radius: 20px; /* Ensure internal elements are also rounded */
+  }
+  
